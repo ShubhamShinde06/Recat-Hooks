@@ -5,8 +5,8 @@ import ExTwo from './Components/ExTwo'
 function App() {
   return (
     <>
-      {/* <ExOne/> */}
-      <ExTwo/>
+      <ExOne/>
+      {/* <ExTwo/> */}
     </>
   )
 }

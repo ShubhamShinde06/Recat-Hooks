@@ -10,18 +10,18 @@ const ExOne = () => {
   const count = useRef(0);
 
   useEffect(() => {
-    count.current = count.current + 1
+    count.current = count.current + 1;
   })
  
 
   return (
     <div>
-        <button onClick={() => {steValue(e => e-1)}}>-1</button>
+        <button onClick={() => {steValue(e => e - 1)}}>-1</button>
         <br />
         <br />
         <h1>{value}</h1>
         <br />
-        <button onClick={() => {steValue(e => e+1)}}>+1</button>
+        <button onClick={() => {steValue(e => e + 1)}}>+1</button>
         <br />
         <br />
         <h1>Render Count : {count.current}</h1>

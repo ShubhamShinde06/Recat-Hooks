@@ -8,6 +8,7 @@ const ExOne = () => {
     setTimeout(() => {
         setCount(count => count + 1)
     },2000)
+    //setCount(count => count + 1)
   },[count])
     
   return (
