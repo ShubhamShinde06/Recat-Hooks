@@ -6,7 +6,7 @@ const initialValue = 0;
 const ExOne = () => {
 
 
-    const [count, dispatch] = useReducer(reducer, initialValue)
+  const [count, dispatch] = useReducer(reducer, initialValue)
 
   return (
     <div>
